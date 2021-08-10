@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import "./App.css";
+import "./styles.css";
 
 function App() {
+  const [news, setNews] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    fetch("http://hn.algolia.com/api/v1/search?query=react")
+      .then((response) => response.json())
+      .then((json) => {
+        setIsLoading(false);
+        setNews(json.hits);
+      })
+      .catch(() => console.log("request failed"));
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {isLoading ? (
+        <div>is loading...</div>
+      ) : (
+        news.map(({ hits }) => (
+          <div className="HackerNews">
+            <div className="'HackerNewstitle'">{hits}</div>
+          </div>
+        ))
+      )}
     </div>
   );
 }
-
 export default App;
