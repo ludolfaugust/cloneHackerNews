@@ -21,9 +21,9 @@ function App() {
       {isLoading ? (
         <div>is loading...</div>
       ) : (
-        news.map(({ hits }) => (
+        news.map((hit) => (
           <div className="HackerNews">
-            <div className="'HackerNewstitle'">{hits}</div>
+            <div className="'HackerNewstitle'">{hit.title}</div>
           </div>
         ))
       )}
