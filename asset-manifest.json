@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/cloneHackerNews/static/css/main.c0d25eea.chunk.css",
+    "main.js": "/cloneHackerNews/static/js/main.f7315531.chunk.js",
+    "main.js.map": "/cloneHackerNews/static/js/main.f7315531.chunk.js.map",
+    "runtime-main.js": "/cloneHackerNews/static/js/runtime-main.81139012.js",
+    "runtime-main.js.map": "/cloneHackerNews/static/js/runtime-main.81139012.js.map",
+    "static/js/2.af45676f.chunk.js": "/cloneHackerNews/static/js/2.af45676f.chunk.js",
+    "static/js/2.af45676f.chunk.js.map": "/cloneHackerNews/static/js/2.af45676f.chunk.js.map",
+    "static/js/3.e11be847.chunk.js": "/cloneHackerNews/static/js/3.e11be847.chunk.js",
+    "static/js/3.e11be847.chunk.js.map": "/cloneHackerNews/static/js/3.e11be847.chunk.js.map",
+    "index.html": "/cloneHackerNews/index.html",
+    "static/css/main.c0d25eea.chunk.css.map": "/cloneHackerNews/static/css/main.c0d25eea.chunk.css.map",
+    "static/js/2.af45676f.chunk.js.LICENSE.txt": "/cloneHackerNews/static/js/2.af45676f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.81139012.js",
+    "static/js/2.af45676f.chunk.js",
+    "static/css/main.c0d25eea.chunk.css",
+    "static/js/main.f7315531.chunk.js"
+  ]
+}
