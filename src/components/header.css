@@ -3,13 +3,14 @@
   padding: 0px;
   font-family: Verdana, Geneva, sans-serif;
   font-size: 10pt;
-  width: 100%;
 }
-.App {
+
+.Header {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 80%;
+  background: rgb(255, 102, 0);
   text-align: left;
   list-style-type: none;
   margin-left: 50px;
