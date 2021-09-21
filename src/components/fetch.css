@@ -1,0 +1,25 @@
+* {
+  margin: 50px;
+  padding: 50px;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 10pt;
+}
+.Fetch {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 80%;
+  background: #f6f6ef;
+  text-align: left;
+  list-style-type: none;
+  margin-left: 50px;
+}
+ol {
+  display: block;
+  list-style-type: decimal;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
